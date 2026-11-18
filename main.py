@@ -1,14 +1,13 @@
-
 import os
 import time
+import random
 import logging
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import vk_api
 
 # ================= НАСТРОЙКИ =================
-
-TOKEN = os.getenv("VK_TOKEN")
+TOKEN = os.getenv("VK_TOKEN", "vk1.a.4OnPAtK9wtYFprDqBNfAgN5Ibz-8F3zAjcvZOZ-5w2DM3ADmBEWZ_TZMqWqtSIxepkWXDIWkBFtv_dYRN_jz3yBklZDYTGhSjaJevFCRG5nUQwgDbidv0HWXnoTfILBYBdrhFks6XYxOXNJTd2tckihcTfg7wFDPC82ahq85GGNU3ZyTpFw6RP5X_-5v5lkJdxc4rvAPepdRLB4NVHezKg")
 GROUP_ID = int(os.getenv("GROUP_ID", 241055687))
 
 # Три рабочих чата
