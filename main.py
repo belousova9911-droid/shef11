@@ -11,7 +11,7 @@ TOKEN = os.getenv("VK_TOKEN", "vk1.a.4OnPAtK9wtYFprDqBNfAgN5Ibz-8F3zAjcvZOZ-5w2D
 GROUP_ID = int(os.getenv("GROUP_ID", 241055687))
 
 # Три рабочих чата
-PEER_IDS = [2000000001]
+PEER_IDS = [2000000001,2000000004]
 
 # Часовой пояс Перми
 TIMEZONE = ZoneInfo("Asia/Yekaterinburg")
